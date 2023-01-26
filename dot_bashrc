@@ -43,7 +43,6 @@ if [ -f /run/.containerenv ]; then
    alias vim=nvim
    alias locate=plocate
    eval "$(starship init bash)"
-   eval "$(zoxide init bash)"
 else
    ## Host Aliases
    alias fs="flatpak search --columns=description,application,version";     
