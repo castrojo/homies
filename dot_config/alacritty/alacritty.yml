@@ -4,6 +4,9 @@ shell:
     - enter
     - alpine
 
+env:
+  WAYLAND_DISPLAY: 
+
 window:
   # Window padding (changes require restart)
   #
