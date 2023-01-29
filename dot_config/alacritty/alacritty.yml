@@ -1,0 +1,84 @@
+shell:
+  program: distrobox
+  args:
+    - enter
+    - alpine
+
+window:
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 20
+    y: 20
+  decorations: full
+  # Allow terminal applications to change Alacritty's window title.
+  dynamic_title: true
+ 
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 99000
+ 
+# Font configuration
+font:
+  # Point size
+  size: 18.0
+ 
+# Background opacity
+#
+# Window opacity as a floating point number from `0.0` to `1.0`.
+# The value `0.0` is completely transparent and `1.0` is opaque.
+window_opacity: 0.95
+ 
+cursor:
+  # Cursor style
+  style:
+    # Cursor shape
+    #
+    # Values for `shape`:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+    shape: Beam
+ 
+    # Cursor blinking state
+    #
+    # Values for `blinking`:
+    #   - Never: Prevent the cursor from ever blinking
+    #   - Off: Disable blinking by default
+    #   - On: Enable blinking by default
+    #   - Always: Force the cursor to always blink
+    blinking: On
+ 
+live_config_reload: true
+
+# Colors (Tomorrow Night)
+colors:
+  # Default colors
+  primary:
+    background: '#333333'
+    foreground: '#F2F2F2'
+ 
+ # Normal colors
+  normal:
+    black:   '#263640'
+    red:     '#d12f2c'
+    green:   '#819400'
+    yellow:  '#b08500'
+    blue:    '#2587cc'
+    magenta: '#696ebf'
+    cyan:    '#289c93'
+    white:   '#bfbaac'
+ 
+  # Bright colors
+  bright:
+    black:   '#4a697d'
+    red:     '#fa3935'
+    green:   '#a4bd00'
+    yellow:  '#d9a400'
+    blue:    '#2ca2f5'
+    magenta: '#8086e8'
+    cyan:    '#33c5ba'
+    white:   '#fdf6e3'
