@@ -53,3 +53,5 @@ fi
 
 kernel=`uname -r`
 echo kernel: $kernel
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
