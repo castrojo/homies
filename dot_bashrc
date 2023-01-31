@@ -52,6 +52,6 @@ else
 fi
 
 kernel=`uname -r`
-echo kernel: $kernel
+echo $HOSTNAME: $kernel
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
