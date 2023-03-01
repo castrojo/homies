@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Name=YouTube Music
+Comment=Web App
+Exec=sh -c 'XAPP_FORCE_GTKWINDOW_ICON="webapp-manager" /var/lib/flatpak/exports/bin/org.mozilla.firefox --class WebApp-YouTubeMusic6613 --profile /var/home/jorge/.var/app/org.mozilla.firefox/data/ice/firefox/YouTubeMusic6613 --no-remote "https://music.youtube.com"'
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=webapp-manager
+Categories=GTK;WebApps;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=WebApp-YouTubeMusic6613
+StartupNotify=true
+X-WebApp-Browser=Firefox (Flatpak)
+X-WebApp-URL=https://music.youtube.com
+X-WebApp-CustomParameters=
+X-WebApp-Navbar=false
+X-WebApp-PrivateWindow=false
+X-WebApp-Isolated=false
