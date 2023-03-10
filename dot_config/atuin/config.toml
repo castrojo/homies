@@ -28,11 +28,11 @@
 
 ## which search mode to use
 ## possible values: prefix, fulltext, fuzzy
-# search_mode = "prefix"
+#search_mode = "prefix"
 
 ## which style to use
 ## possible values: auto, full, compact
-#style = "auto"
+$style = "auto"
 
 ## what to do when the escape key is pressed when searching
 ## possible values: return-original, return-query
@@ -42,4 +42,4 @@ search_mode = "fuzzy"
 filter_mode = "global"
 filter_mode_shell_up_key_binding = "global"
 style = "compact"
-exit_mode = "return-query"
+exit_mode = "return-original"
