@@ -1,6 +1,6 @@
 aliases:
     cdfleek: cd ~/.config/home-manager
-bling: default
+bling: low
 ejected: false
 flakedir: .config/home-manager
 name: My Fleek Configuration
