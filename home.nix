@@ -19,6 +19,7 @@
   home.packages = [
     # user selected packages
     pkgs.helix
+    pkgs.vim
     # Fleek Bling
     pkgs.btop
     pkgs.cheat

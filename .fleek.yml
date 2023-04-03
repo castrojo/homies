@@ -6,11 +6,13 @@ flakedir: .config/home-manager
 name: My Fleek Configuration
 packages:
     - helix
+    - vim
 paths:
     - $HOME/bin
     - $HOME/.local/bin
 programs:
     - dircolors
+    - starship
 repo: git@github.com:castrojo/homies
 shell: bash
 systems:
