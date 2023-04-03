@@ -1,0 +1,24 @@
+aliases:
+    cdfleek: cd ~/.config/home-manager
+bling: default
+ejected: false
+flakedir: .config/home-manager
+name: My Fleek Configuration
+packages:
+    - helix
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+repo: ""
+shell: bash
+systems:
+    - arch: x86_64
+      git:
+        email: jorge.castro@gmail.com
+        name: Jorge O. Castro
+      hostname: exo
+      os: linux
+      username: jorge
+unfree: true
