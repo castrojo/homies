@@ -11,7 +11,7 @@ paths:
     - $HOME/.local/bin
 programs:
     - dircolors
-repo: ""
+repo: git@github.com:castrojo/homies
 shell: bash
 systems:
     - arch: x86_64
