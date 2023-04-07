@@ -8,6 +8,7 @@ packages:
     - helix
     - vim
     - ntopng
+    - pipx
 paths:
     - $HOME/bin
     - $HOME/.local/bin
