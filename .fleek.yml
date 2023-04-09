@@ -3,25 +3,26 @@ aliases:
 bling: low
 ejected: false
 flakedir: .config/home-manager
+git:
+    autocommit: true
+    autopull: true
+    autopush: true
+    enabled: true
 name: My Fleek Configuration
 packages:
     - helix
     - vim
-    - ntopng
     - pipx
+    - vscode
 paths:
     - $HOME/bin
     - $HOME/.local/bin
 programs:
     - dircolors
     - starship
-repo: git@github.com:castrojo/homies
 shell: bash
 systems:
     - arch: x86_64
-      git:
-        email: jorge.castro@gmail.com
-        name: Jorge O. Castro
       hostname: exo
       os: linux
       username: jorge

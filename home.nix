@@ -20,6 +20,8 @@
     # user selected packages
     pkgs.helix
     pkgs.vim
+    pkgs.pipx
+    pkgs.vscode
     # Fleek Bling
     pkgs.btop
     pkgs.cheat
