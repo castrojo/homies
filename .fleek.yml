@@ -1,6 +1,6 @@
 aliases:
     cdfleek: cd ~/.config/home-manager
-bling: low
+bling: off
 ejected: false
 flakedir: .config/home-manager
 git:

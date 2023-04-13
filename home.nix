@@ -23,23 +23,13 @@
     pkgs.pipx
     pkgs.vscode
     # Fleek Bling
-    pkgs.btop
-    pkgs.cheat
-    pkgs.fzf
     pkgs.git
+    pkgs.htop
     pkgs.github-cli
     pkgs.glab
-    pkgs.htop
-    pkgs.jq
-    pkgs.lazygit
-    pkgs.neofetch
-    pkgs.neovim
+    pkgs.fzf
     pkgs.ripgrep
     pkgs.vscode
-    pkgs.yq
-    # extra until this works, remove later :TODO:
-    pkgs.go
-    pkgs.gcc
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 
