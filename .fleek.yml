@@ -17,6 +17,7 @@ packages:
     - neomutt
     - btop
     - ncdu
+    - mc
 paths:
     - $HOME/bin
     - $HOME/.local/bin
