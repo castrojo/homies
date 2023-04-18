@@ -17,7 +17,6 @@ packages:
     - neomutt
     - btop
     - ncdu
-    - texlive-combined-full
 paths:
     - $HOME/bin
     - $HOME/.local/bin
