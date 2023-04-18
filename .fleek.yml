@@ -18,6 +18,7 @@ packages:
     - btop
     - ncdu
     - mc
+    - byobu
 paths:
     - $HOME/bin
     - $HOME/.local/bin
