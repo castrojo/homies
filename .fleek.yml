@@ -14,6 +14,7 @@ packages:
     - vim
     - pipx
     - vscode
+    - neomutt
 paths:
     - $HOME/bin
     - $HOME/.local/bin

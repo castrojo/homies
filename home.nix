@@ -22,6 +22,7 @@
     pkgs.vim
     pkgs.pipx
     pkgs.vscode
+    pkgs.neomutt
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
