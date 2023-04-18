@@ -20,6 +20,7 @@ packages:
     - mc
     - byobu
     - neofetch
+    - inxi
 paths:
     - $HOME/bin
     - $HOME/.local/bin
