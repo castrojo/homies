@@ -24,6 +24,7 @@
     pkgs.vscode
     pkgs.neomutt
     pkgs.btop
+    pkgs.ncdu
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

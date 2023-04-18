@@ -16,6 +16,7 @@ packages:
     - vscode
     - neomutt
     - btop
+    - ncdu
 paths:
     - $HOME/bin
     - $HOME/.local/bin
