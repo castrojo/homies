@@ -19,6 +19,7 @@ packages:
     - ncdu
     - mc
     - byobu
+    - neofetch
 paths:
     - $HOME/bin
     - $HOME/.local/bin
