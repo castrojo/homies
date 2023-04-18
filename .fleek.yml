@@ -21,6 +21,7 @@ packages:
     - byobu
     - neofetch
     - inxi
+    - neo
 paths:
     - $HOME/bin
     - $HOME/.local/bin
