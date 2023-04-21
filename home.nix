@@ -30,6 +30,7 @@
     pkgs.neofetch
     pkgs.inxi
     pkgs.neo
+    pkgs.nodejs
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
