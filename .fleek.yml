@@ -22,7 +22,6 @@ packages:
     - neofetch
     - inxi
     - neo
-    - nodejs
 paths:
     - $HOME/bin
     - $HOME/.local/bin
